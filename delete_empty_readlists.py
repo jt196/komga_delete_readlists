@@ -9,7 +9,6 @@ print('Please enter the base URL of your Komga installation (e.g. http://komga.m
 url = input()
 print('Please enter your Komga username:')
 user = input()
-# print('Please enter your Komga password:')
 password = getpass.getpass('Please enter your Komga password:')
 
 r = requests.get(f'{url}/api/v1/readlists?unpaged=true', auth=HTTPBasicAuth(f'{user}', f'{password}'))
