@@ -15,6 +15,6 @@ This script uses the Komga Swagger api to remove any empty readlists.
 
 **Before you run this**
 
-Replace the URL, user and pass with your own - deleting the <>.
+Enter the URL, user and pass at the prompts. Confirm you want to delete with y/n.
 
 Beware, running delete requests through an API can seriously damage your collection if you don't know what you're doing! 
